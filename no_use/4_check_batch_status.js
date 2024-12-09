@@ -10,7 +10,7 @@ const openai = new OpenAI({
 });
 
 // バッチIDを指定
-const batchId = 'batch_674a0e3406488190a2bb6fffbf33862d'; // 実際のバッチIDに置き換えてください
+const batchId = ''; // 実際のバッチIDに置き換えてください
 
 // バッチのステータス確認関数
 async function checkBatchStatus() {

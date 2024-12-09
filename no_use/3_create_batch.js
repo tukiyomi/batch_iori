@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 // アップロード済みのファイルIDを指定
-const inputFileId = 'file-4iqXmWxuMALVpcbKR2FC11'; // 実際のファイルIDに置き換えてください
+const inputFileId = ''; // 実際のファイルIDに置き換えてください
 
 // バッチの作成関数
 async function createBatch() {
