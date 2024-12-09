@@ -1,0 +1,29 @@
+# 環境変数
+.env
+
+# 依存関係
+node_modules/
+
+# プロジェクト特有の生成ファイル
+batch_input.jsonl
+batch_output.json
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# エディタ/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ログファイル
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# その他
+.tmp/
+.temp/
