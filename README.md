@@ -64,9 +64,9 @@ node 1_generate_jsonl.js
 
 ### 2. OpenAI Batches へのアップロードと実行
 
-1. [OpenAI Dashboard](https://platform.openai.com/) にアクセスし、左ナビゲーションの「Batches」を選択します。
+1. [OpenAI Dashboard](https://platform.openai.com/batches) にアクセスます。
 2. 「+Create」ボタンをクリックし、先ほど生成した jsonl ファイルをアップロードします。
-3. バッチ処理が開始され、`pending` → `running` → `completed` の順にステータスが変化します。完了するまで待ちます。
+3.  バッチ処理が開始され、`pending` → `running` → `completed` の順にステータスが変化します。完了するまで待ちます。
 
 ### 3. 結果の取得とMarkdownファイルの生成
 
