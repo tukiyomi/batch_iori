@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-// システムプロンプトの設定
-const systemPrompt = "ユーザーから提供される英文を日本語に翻訳してください。ただし、以下のルールを厳密に遵守してください：\n`**`で囲まれた用語（例：**basal ganglia**、**paraventricular nucleus of hypothalamus**）は、英語（例：**basal ganglia**、**paraventricular nucleus of hypothalamus**）のまま残してください。絶対に日本語（例：**基底核**、**視床下部室傍核**）に翻訳しないでください。\n\n例：\n  • 原文: The **amygdala** are important.\n  • 翻訳: **amygdala**は重要です。\n\n  • 原文: The **anterior nuclei of thalamus** play a key role.\n  • 翻訳: **anterior nuclei of thalamus**は重要な役割を果たします。\n";
+// システムプロンプトの設定 （目的に応じて変更してください）
+const systemPrompt = "ユーザーから提供される英文を日本語に翻訳してください。\n";
 
-// マークダウンファイルが入っているディレクトリ
+// マークダウンファイル（ユーザープロンプト）が入っているディレクトリ
 const markdownDir = './markdown_input_files';
 
 // 出力するjsonlファイル名
